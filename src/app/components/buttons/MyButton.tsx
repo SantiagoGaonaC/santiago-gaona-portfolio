@@ -18,12 +18,13 @@ export default function MyButton({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <h2 className={`mb-3 text-2xl font-semibold`}>
+      <h2 className="mb-3 text-2xl font-semibold flex items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
           viewBox="0 0 24 24"
+          className="mr-2"
         >
           <path d={icon} />
         </svg>
@@ -33,7 +34,7 @@ export default function MyButton({
         </span>
       </h2>
       <p
-        className={`m-0 max-w-[30ch] text-sm opacity-50`}
+        className="m-0 max-w-[30ch] text-sm opacity-50"
         dangerouslySetInnerHTML={{ __html: description }}
       ></p>
     </a>
