@@ -4,7 +4,7 @@ export default function MyImage() {
   return (
     <div
       className="rounded-full mx-32 bg-green-400 h-40 w-40
-                flex items-center justify-center drop-shadow-2xl"
+                flex items-center justify-center drop-shadow-2x m-3"
     >
       <Image
         src="/photo.svg"
