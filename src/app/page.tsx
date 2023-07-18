@@ -4,7 +4,7 @@ import { MyDesc, MyTitle } from "./components/text/MyText";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-20 bg-gray-200 min-w-full">
+    <main className="w-full md:w-fit h-full overflow-auto relative flex min-h-screen flex-col items-center justify-between p-20 bg-gray-200 min-w-full">
       <MyImage />
       <span
         className="text-4xl text-center"
